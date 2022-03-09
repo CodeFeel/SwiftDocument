@@ -1,0 +1,10 @@
+//
+//  TOCDebugConfig.xcconfig
+//  Mems
+//
+//  Created by ios on 2022/3/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "BaseConfig.xcconfig"

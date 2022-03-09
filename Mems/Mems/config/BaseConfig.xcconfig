@@ -1,0 +1,25 @@
+//
+//  BaseConfig.xcconfig
+//  Mems
+//
+//  Created by ios on 2022/3/7.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// swift版本
+SWIFT_VERSION = 5.0
+
+// iphone 1  ipd 2   mac 6   apple watch 4
+TARGETED_DEVICE_FAMILY = 1,2
+
+// 启用模块（C 和 Objective-C, 许使用系统 API 的模块。系统标头作为语义模块而不是原始标头导入。这可以导致更快的构建和项目索引
+CLANG_ENABLE_MODULES = YES
+
+// EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+
+// 最低支持版本
+IPHONEOS_DEPLOYMENT_TARGET = 14.0
+
+

@@ -1,0 +1,23 @@
+//
+//  SortiAPPStoreConfig.xcconfig
+//  Mems
+//
+//  Created by ios on 2022/3/4.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "BaseConfig.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = com.hanin.Mems.sorticher
+
+//:configuration = $(TARGET_NAME)
+PRODUCT_NAME = "Sor"
+
+INFOPLIST_KEY_CFBundleDisplayName = MemEE
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = SorAPPStore
+
+MARKETING_VERSION = 1.2.1
+CURRENT_PROJECT_VERSION = 1

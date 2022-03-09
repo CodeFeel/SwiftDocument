@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow.init(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
-        let vc = PDMainViewController()
-        let nvc = BaseNavigationController.init(rootViewController: vc)
+        let vc = ViewController()
+        let nvc = UINavigationController.init(rootViewController: vc)
         window?.rootViewController = nvc
         if #available(iOS 13.0, *) {
             window?.overrideUserInterfaceStyle = .light
