@@ -16,6 +16,7 @@
 		8114792127D8466E004620D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8114792027D8466E004620D5 /* main.m */; };
 		8114792927D846A9004620D5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8114792827D846A9004620D5 /* Person.m */; };
 		8114792E27D89115004620D5 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 8114792D27D89115004620D5 /* Student.m */; };
+		8186225627D9E49D0054A298 /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8186225527D9E49D0054A298 /* NSObject+Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		8114792B27D87A0D004620D5 /* vvv.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vvv.cpp; sourceTree = "<group>"; };
 		8114792C27D89115004620D5 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		8114792D27D89115004620D5 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		8186225427D9E49D0054A298 /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		8186225527D9E49D0054A298 /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				8114792827D846A9004620D5 /* Person.m */,
 				8114792C27D89115004620D5 /* Student.h */,
 				8114792D27D89115004620D5 /* Student.m */,
+				8186225427D9E49D0054A298 /* NSObject+Test.h */,
+				8186225527D9E49D0054A298 /* NSObject+Test.m */,
 				8114792B27D87A0D004620D5 /* vvv.cpp */,
 				8114791727D8466C004620D5 /* Main.storyboard */,
 				8114791A27D8466E004620D5 /* Assets.xcassets */,
@@ -164,6 +169,7 @@
 				8114792127D8466E004620D5 /* main.m in Sources */,
 				8114791327D8466C004620D5 /* SceneDelegate.m in Sources */,
 				8114792E27D89115004620D5 /* Student.m in Sources */,
+				8186225627D9E49D0054A298 /* NSObject+Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

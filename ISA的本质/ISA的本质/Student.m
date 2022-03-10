@@ -9,4 +9,9 @@
 
 @implementation Student
 
+//+ (void)test {
+//    
+//    NSLog(@"Student class test -- %p",self);
+//}
+
 @end

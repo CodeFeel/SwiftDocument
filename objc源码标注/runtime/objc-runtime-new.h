@@ -1684,7 +1684,7 @@ public:
     }
 };
 
-
+#warning lwc objc_class
 struct objc_class : objc_object {
   objc_class(const objc_class&) = delete;
   objc_class(objc_class&&) = delete;

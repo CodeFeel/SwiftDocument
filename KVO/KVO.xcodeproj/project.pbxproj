@@ -14,6 +14,7 @@
 		810D944E27D8324E007AE22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810D944D27D8324E007AE22E /* Assets.xcassets */; };
 		810D945127D8324E007AE22E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810D944F27D8324E007AE22E /* LaunchScreen.storyboard */; };
 		810D945427D8324E007AE22E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 810D945327D8324E007AE22E /* main.m */; };
+		8186225927D9F8FA0054A298 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8186225827D9F8FA0054A298 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		810D945027D8324E007AE22E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		810D945227D8324E007AE22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		810D945327D8324E007AE22E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8186225727D9F8FA0054A298 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8186225827D9F8FA0054A298 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				810D944527D8324B007AE22E /* SceneDelegate.m */,
 				810D944727D8324B007AE22E /* ViewController.h */,
 				810D944827D8324B007AE22E /* ViewController.m */,
+				8186225727D9F8FA0054A298 /* Person.h */,
+				8186225827D9F8FA0054A298 /* Person.m */,
 				810D944A27D8324C007AE22E /* Main.storyboard */,
 				810D944D27D8324E007AE22E /* Assets.xcassets */,
 				810D944F27D8324E007AE22E /* LaunchScreen.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				810D944927D8324B007AE22E /* ViewController.m in Sources */,
 				810D944327D8324B007AE22E /* AppDelegate.m in Sources */,
+				8186225927D9F8FA0054A298 /* Person.m in Sources */,
 				810D945427D8324E007AE22E /* main.m in Sources */,
 				810D944627D8324B007AE22E /* SceneDelegate.m in Sources */,
 			);

@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
     int _height; // 4
 
 }
+
+//+ (void)test;
+
 @end
 
 NS_ASSUME_NONNULL_END

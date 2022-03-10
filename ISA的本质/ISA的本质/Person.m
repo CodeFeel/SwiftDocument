@@ -9,4 +9,11 @@
 
 @implementation Person
 
+//+ (void)test {
+//
+//    NSLog(@"Person class test -- %p",self);
+//}
+
+
+
 @end

@@ -181,6 +181,9 @@
 **********************************************************************/
 Class object_getClass(id obj)
 {
+    //如果是实例对象，返回类对象
+    //如果是类对象，返回元类对象
+    //如果是元类对象，返回NSObject（基类）的meta-class对象
     if (obj) return obj->getIsa();
     else return Nil;
 }

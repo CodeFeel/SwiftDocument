@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
     double _sssss; //8
 }
 
++ (void)test;
 
 @end
 
